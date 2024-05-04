@@ -352,13 +352,14 @@ h2 {
 }
 .formular__link-text {
   width: 15.625vw;
+  font-size: var(--eighteen);
 }
 .bignumbers {
   width: 50%;
   margin-top: 12.22222vh;
 }
 .bignumbers span {
-  font-size: 7.407407vh;
+  font-size: 3vw;
   font-weight: bold;
 }
 .bignumbers__reallybig {
@@ -369,7 +370,7 @@ h2 {
   -webkit-text-fill-color: transparent;
 }
 .bignumbers__reallybig b {
-  font-size: 41.66666vh;
+  font-size: 23.4375vw;
   font-weight: 800;
 }
 .bignumbers__reallybig span {
