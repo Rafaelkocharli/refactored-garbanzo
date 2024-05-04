@@ -284,6 +284,7 @@ h2 {
   text-align: center;
   margin: 0 2.447917vw;
   color: #848484;
+  font-size: var(--eighteen);
 }
 .block4 {
   height: 100vh;
