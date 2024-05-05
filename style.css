@@ -411,6 +411,9 @@ h2 {
     --thirtytwo: 32px;
     --twentyfour: 24px;
   }
+  .block1 .background-image {
+    height: 100vh;
+  }
   h1 {
     font-size: 22.72727272vw;
     text-align: left;
