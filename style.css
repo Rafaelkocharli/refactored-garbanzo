@@ -561,14 +561,28 @@ h2 {
   .formular__link {
     width: unset;
     margin: 0;
-    padding: 0 13px;
+    padding: 0 auto;
   }
-
+  .form-form {
+    justify-content: center;
+  }
   .formular .plain-input {
     width: 55vw;
-  }
-  .formular .plain-input::placeholder {
     padding: 0 auto;
+  }
+  .formular__link-text {
+    width: unset;
+  }
+  .button-filled {
+    width: unset;
+    margin-top: 10px;
+  }
+  .formular__link {
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    text-align: center;
   }
   .formular {
     align-items: center;
