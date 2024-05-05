@@ -536,15 +536,35 @@ h2 {
   .comment-block {
     width: 100%;
     margin-bottom: 45px;
+    height: 500px;
+    border-radius: 50px;
+  }
+  .block4 .plain-input {
+    height: 100px;
+    padding: 0 10px;
   }
   .block4 {
+    margin-top: 50px;
     flex-direction: column-reverse;
     justify-content: space-around;
+    height: 932px;
+  }
+  .button-search-icon {
+    width: 100px;
+    height: 100px;
+  }
+  .button-search-icon svg {
+    width: 50px;
+    height: 50px;
   }
   .bignumbers {
     margin-top: 0;
     width: unset;
     padding: 0 6.976744vw;
+  }
+  .comment-block__avatar {
+    height: 100px;
+    width: 100px;
   }
   .bignumbers > span {
     font-size: 30px;
@@ -577,7 +597,7 @@ h2 {
     width: unset;
   }
   .button-filled {
-    width: unset;
+    width: 180px;
     margin-top: 10px;
   }
   .formular__link {
