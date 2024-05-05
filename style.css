@@ -404,3 +404,74 @@ h2 {
   align-items: center;
   flex-direction: column;
 }
+@media screen and (max-width: 430px) {
+  .block2,
+  .block3,
+  .block4 {
+    display: none;
+  }
+  :root {
+    --eighteen: 18px;
+    --twenty: 20px;
+    --thirtytwo: 32px;
+    --twentyfour: 24px;
+  }
+  h1 {
+    font-size: 22.72727272vw;
+    text-align: left;
+    line-height: 125%;
+    letter-spacing: normal;
+  }
+  .header-navbar {
+    display: none;
+  }
+  .header {
+    background: none;
+  }
+  .header__logo {
+    margin-left: 20px;
+    width: 75%;
+  }
+  .block1-content {
+    flex-direction: column-reverse;
+    margin: 0 42px;
+  }
+  .block1-content__form h2 {
+    text-align: left;
+    margin-bottom: 25px;
+  }
+  .footer {
+    flex-direction: column;
+  }
+  .footer__navigation {
+    flex-direction: column;
+  }
+  .block1-content__form form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .block1-content__form {
+    margin-top: 45px;
+  }
+  .block1-content__form .plain-input {
+    width: auto;
+    margin-right: 0;
+  }
+  .plain-input::placeholder {
+    letter-spacing: normal;
+    font-size: 4.651163vw;
+  }
+  .button-stroke {
+    width: 190px;
+    margin-top: 16px;
+    align-self: self-end;
+  }
+  .block1__social-nerworks {
+    width: 100%;
+    margin-left: -42px;
+  }
+  .networks-list {
+    width: 60%;
+  }
+}
