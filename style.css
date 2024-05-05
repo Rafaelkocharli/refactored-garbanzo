@@ -435,6 +435,9 @@ h2 {
     text-align: left;
     margin-bottom: 25px;
   }
+  .block1__social-nerworks {
+    display: none;
+  }
   .footer {
     flex-direction: column;
   }
