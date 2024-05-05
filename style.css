@@ -515,6 +515,7 @@ h2 {
   }
   .block3 {
     height: unset;
+    margin-bottom: 50px;
   }
   .block3 h2 {
     padding-top: 21px;
@@ -532,5 +533,47 @@ h2 {
   .comment-block {
     width: 100%;
     margin-bottom: 45px;
+  }
+  .block4 {
+    flex-direction: column-reverse;
+    justify-content: space-around;
+  }
+  .bignumbers {
+    margin-top: 0;
+    width: unset;
+    padding: 0 6.976744vw;
+  }
+  .bignumbers > span {
+    font-size: 30px;
+    display: block;
+    width: 100%;
+  }
+  .bignumbers__reallybig {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+  .bignumbers__reallybig b {
+    font-size: 58.139535vw;
+    line-height: 70%;
+  }
+  .formular form,
+  .formular__link {
+    width: unset;
+    margin: 0;
+    padding: 0 13px;
+  }
+
+  .formular .plain-input {
+    width: 55vw;
+  }
+  .formular .plain-input::placeholder {
+    padding: 0 auto;
+  }
+  .formular {
+    align-items: center;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
   }
 }
