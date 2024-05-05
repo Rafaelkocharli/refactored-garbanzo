@@ -414,7 +414,7 @@ h2 {
   h1 {
     font-size: 22.72727272vw;
     text-align: left;
-    line-height: 125%;
+    line-height: 15.625vh;
     letter-spacing: normal;
   }
   .header-navbar {
@@ -450,7 +450,7 @@ h2 {
     width: 100%;
   }
   .block1-content__form {
-    margin-top: 45px;
+    margin-top: 4.828326vh;
   }
   .block1-content__form .plain-input {
     width: auto;
@@ -571,6 +571,7 @@ h2 {
     display: block;
     width: 100%;
   }
+
   .bignumbers__reallybig {
     display: flex;
     flex-direction: column;
