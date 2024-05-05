@@ -405,11 +405,6 @@ h2 {
   flex-direction: column;
 }
 @media screen and (max-width: 430px) {
-  .block2,
-  .block3,
-  .block4 {
-    display: none;
-  }
   :root {
     --eighteen: 18px;
     --twenty: 20px;
@@ -498,5 +493,44 @@ h2 {
   }
   .footer__networks .networks-list {
     width: 80%;
+  }
+  .block2 {
+    padding-top: 24px;
+    height: unset;
+  }
+  .block2 h2 {
+    text-align: center;
+  }
+  .block2-main-text {
+    width: auto;
+    margin: 0 27px;
+  }
+  .blocks {
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  .blocks__block {
+    width: auto;
+    margin-bottom: 30px;
+  }
+  .block3 {
+    height: unset;
+  }
+  .block3 h2 {
+    padding-top: 21px;
+    padding-left: 27px;
+    padding-right: 0;
+  }
+  .block3 .background-image {
+    width: unset;
+    height: 1800px;
+  }
+  .comments {
+    margin-top: 59px;
+    flex-direction: column;
+  }
+  .comment-block {
+    width: 100%;
+    margin-bottom: 45px;
   }
 }
