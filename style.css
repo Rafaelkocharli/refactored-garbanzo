@@ -404,7 +404,7 @@ h2 {
   align-items: center;
   flex-direction: column;
 }
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 500px) {
   :root {
     --eighteen: 18px;
     --twenty: 20px;
@@ -618,7 +618,7 @@ h2 {
     flex-direction: column;
   }
 }
-/* @media screen and (min-width: 430px) and (max-width: 1200px) {
+@media screen and (min-width: 500px) and (max-width: 1200px) {
   .button-search-icon {
     width: 100px;
     height: 100px;
@@ -649,4 +649,4 @@ h2 {
   .button-stroke {
     width: 200px;
   }
-} */
+}
