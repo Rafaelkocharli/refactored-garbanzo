@@ -618,7 +618,7 @@ h2 {
     flex-direction: column;
   }
 }
-@media screen and (min-width: 430px) and (max-width: 1200px) {
+/* @media screen and (min-width: 430px) and (max-width: 1200px) {
   .button-search-icon {
     width: 100px;
     height: 100px;
@@ -649,4 +649,4 @@ h2 {
   .button-stroke {
     width: 200px;
   }
-}
+} */
